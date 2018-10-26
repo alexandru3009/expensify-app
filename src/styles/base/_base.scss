@@ -1,0 +1,24 @@
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: $m-size;
+    
+}
+
+button {
+    cursor:pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+//Aici putem modifica tot continutul
+
+//1rem=16 pixels
+//62.5 *16 =10
+.is-active {
+    font-weight:bold;
+}
